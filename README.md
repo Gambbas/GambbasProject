@@ -1,4 +1,4 @@
-# PythonProject - 감빠스
+# 감빠스
 ### 감성에 빠지는 spot의 줄임말로 나만의 감성 가득한 장소를 다른 사람과 함께 공유 가능한 서비스입니다.
 #### 저희의 서비스가 궁금하시다면
 #### [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='youtube' height='40'>](https://youtu.be/m7i4y6Wfydo)
@@ -46,6 +46,7 @@
 - 비전공자 모임으로 인한 얕은 개발 지식
 - CSS를 싫어하는 인원으로 구성된 팀(피카츄 3등분 사건)
 - 협업 툴 사용 능력 부족
+- 팀장을 제외한 팀원들이 이해심이 많아 팀장이 없어도 찾지 않음(팀장의 입지 확보 실패)
 
 ## 💯 해결한 문제
 1. 게시글 작성 후, 메인페이지에 노출 시 사진이 잘려서 1/3씩 표시되는 오류 발생. 이미지쪽 문제인지 알았으나, css문제인 것을 확인 후 수정.
@@ -57,3 +58,7 @@
 특정 유저의 post를 가져오는 것이 아닌 모든 유저의 post를 받고 있음을 확인.
 서버에서 posts = list(db.posts.find({})) 해당 코드를 통해 DB posts 에서 모든 post를 가지고 오던 것을 posts = list(db.posts.find({"username": username})) 특정한 username의 post를 가져오도록 변경하여 적용.
 
+## 🍻 개인 회고
+#### 김다희 https://cloud-cuckoo-land.tistory.com/
+#### 서현우 https://robert0623.tistory.com/
+#### 전종민 https://coding-wil.tistory.com/
